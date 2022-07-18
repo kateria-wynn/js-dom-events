@@ -1,4 +1,4 @@
-//Event delegation example
+// Event delegation example
 // const form = document.querySelector('form');
 // const friendList = document.querySelector('#friend-list');
 
@@ -19,4 +19,16 @@
 //   newLi.append(newButton);
 //   friendList.append(newLi);
 //   form.reset();
+// });
+
+// Data attributes
+// const ul = document.querySelector('ul');
+
+// ul.addEventListener('click', function (e) {
+//   const selectedElement = e.target;
+//   console.log('See all data attributtes', selectedElement.dataset);
+//   console.log(
+//     'See one data attribute',
+//     selectedElement.getAttribute('data-model')
+//   );
 // });
